@@ -1,5 +1,5 @@
-# superdep
-Supervise the dependencies in a node project
+# superdep [WIP]
+Supervise the dependencies in a node project because its your project.
 
 ## why
 Modern `npm` will inform you about the dependencies your project integrates, specifically when they are outdated or have security implications. The problem is that many of the projects that you might be using have not updated their dependencies, and even if you file an issue and make a PR, there is no guarantee that anything will happen. 
@@ -41,7 +41,7 @@ imagemin-optipng/optipng-bin
         bin-build/download/caw
             download/caw
                 caw/tunnel-agent/0.6.0
-            ```
+```
 
 ## gotchas
 After you run any npm or yarn install / update command, chances are good that your changes will be overwritten. This is why it is probably good to use a custom command to update your repository - or rewrite the [npm install command](https://stackoverflow.com/questions/48983841/run-postinstall-hook-for-any-local-dependency/48987576#48987576).
