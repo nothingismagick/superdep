@@ -4,7 +4,7 @@ Supervise the dependencies in a node project because its your project.
 ## why
 Modern `npm` will inform you about the dependencies your project integrates, specifically when they are outdated or have security implications. The problem is that many of the projects that you might be using have not updated their dependencies, and even if you file an issue and make a PR, there is no guarantee that anything will happen. 
 
-**superdep** offers a solution to this situation, which is opinionated and probably something that most people will not find useful. There are two approaches: GLOBAL & TARGETED.
+**superdep** offers a solution to this situation, which is opinionated and probably something that most people will not find useful. There are three approaches: GLOBAL, TARGETED and SURGICAL.
 
 Its **`GLOBAL`** method scans all of the dependencies within your project - and when it finds a package that is out of date it will add that project to its own dependencies and hard copy that dependency folder to the offending package's node_modules. This will probably break your package, but it is fun to watch, because it will probably take A VERY LONG TIME! 
 
