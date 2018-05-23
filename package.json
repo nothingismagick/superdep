@@ -1,6 +1,6 @@
 {
   "name": "superdep",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Supervise the dependencies in a node project",
   "main": "./lib/index.js",
   "scripts": {
