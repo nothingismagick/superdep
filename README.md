@@ -16,18 +16,18 @@ Its **`SURGICAL`** method will treat one specific issue in one repository.
 
 Install:
 ```bash
-$ yarn global add git+ssh://git@github.com/nothingismagick/superdep.git
+$ yarn global add superdep
 
 or
 
-$ npm install --global git+ssh://git@github.com/nothingismagick/superdep.git
+$ npm install --global superdep
 ```
 
 Run:
 ```bash
-$ npm run superdep                                         # without config it is GLOBAL
-$ npm run superdep --local=.superdep                       # pass a file to parse for surgical lines
-$ npm run superdep --surgical="stylus/source-map/0.6.1"    # pass a surgical line
+$ superdep                                         # without config it is GLOBAL
+$ superdep --local=.superdep                       # pass a file to parse for surgical lines
+$ superdep --surgical='stylus/source-map/0.6.1'    # pass a surgical line
 ```
 
 #### .superdep
