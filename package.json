@@ -1,0 +1,34 @@
+{
+  "name": "superdep",
+  "version": "1.0.0",
+  "description": "Supervise the dependencies in a node project",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nothingismagick/superdep.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "nothingismagick <daniel@kinokabaret.com> (https://kinokabaret.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nothingismagick/superdep/issues"
+  },
+  "homepage": "https://github.com/nothingismagick/superdep#readme",
+  "preferGlobal": true,
+  "bin": {
+    "superdep": "./bin/global.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^6.0.1",
+    "linebyline": "^1.3.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "source-map": "^0.6.1"
+  }
+}
