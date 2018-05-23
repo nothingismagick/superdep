@@ -26,8 +26,8 @@ $ npm install --global git+ssh://git@github.com/nothingismagick/superdep.git
 Run:
 ```bash
 $ npm run superdep                                         # without config it is GLOBAL
-$ npm run superdep --local=.superdep                       # pass a config and it is LOCAL
-$ npm run superdep --surgical="stylus/source-map/0.6.1"    # pass a config and it is LOCAL
+$ npm run superdep --local=.superdep                       # pass a file to parse for surgical lines
+$ npm run superdep --surgical="stylus/source-map/0.6.1"    # pass a surgical line
 ```
 
 #### .superdep
