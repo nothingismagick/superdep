@@ -1,11 +1,12 @@
 {
   "name": "superdep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Supervise the dependencies in a node project",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "access": "public",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nothingismagick/superdep.git"
@@ -28,7 +29,9 @@
     "fs-extra": "^6.0.1",
     "linebyline": "^1.3.0",
     "minimist": "^1.2.0",
-    "path": "^0.12.7",
-    "source-map": "^0.6.1"
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=4.2.4"
   }
 }
