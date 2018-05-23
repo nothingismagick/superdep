@@ -14,6 +14,9 @@ Its **`SURGICAL`** method will treat one specific issue in one repository.
 
 ## how
 
+# BACKUP YOUR PROJECT! 
+
+
 Install:
 ```bash
 $ yarn global add superdep
@@ -38,7 +41,7 @@ stylus/source-map/0.6.1
 # THIS WONT WORK YET BUT WOULD BE NICE
 imagemin-optipng/optipng-bin
     optipng-bin/bin-build
-        bin-build/download/caw
+        bin-build/download
             download/caw
                 caw/tunnel-agent/0.6.0
 ```
