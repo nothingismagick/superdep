@@ -16,7 +16,7 @@ Its **`SURGICAL`** method will treat one specific issue in one repository.
 
 Install:
 ```bash
-$ yarn global install git+ssh://git@github.com/nothingismagick/superdep.git
+$ yarn global add git+ssh://git@github.com/nothingismagick/superdep.git
 
 or
 
